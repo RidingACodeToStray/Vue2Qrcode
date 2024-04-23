@@ -32,9 +32,9 @@ import { Vue2Qrcode } from "./index";
 />
 ```
 ## 参数说明 
-| 参数     | 解释                          | 类型             | 默认值 |
-| -------- | ---------------------------- | ---------------- | ------ |
-| content  | 需要转为二维码的内容           | String           | ''     |
-| width    | 二维码宽度                    | Number \| String | 200    |
-| logoImg  | 二维码中心logo，需要则不设置   | String           | ''     |
-| logoZoom | 中心logo缩放                  | Number           | 0.2    |
+| 参数     | 解释                            | 类型             | 默认值 |
+| -------- | ------------------------------ | ---------------- | ------ |
+| content  | 需要转为二维码的内容             | String           | ''     |
+| width    | 二维码宽度                      | Number \| String | 200    |
+| logoImg  | 二维码中心logo，不需要则不设置    | String           | ''     |
+| logoZoom | 中心logo缩放                    | Number           | 0.2    |
