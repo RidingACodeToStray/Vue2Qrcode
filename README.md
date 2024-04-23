@@ -1,4 +1,4 @@
-## vue2qrcode
+## vue2-qr
 **English** | [中文](./README.zh-CN.md)  
 ## Introduction  
 A plugin suitable for vue2.x with a QR code in the center with a logo.  
@@ -22,7 +22,7 @@ npm run serve
 
 ## How to use  
 ```javascript
-import { Vue2Qrcode } from "./index";
+import { Vue2Qrcode } from "vue2-qr";
 ```
 ```html
 <Vue2Qrcode

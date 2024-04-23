@@ -1,4 +1,4 @@
-## vue2qrcode
+## vue2-qr
 [English](./README.md) | **中文**
 ## 描述  
 适用于vue2.x的生成中心带logo的二维码插件  
@@ -22,7 +22,7 @@ npm run serve
 
 ## 如何使用  
 ```javascript
-import { Vue2Qrcode } from "./index";
+import { Vue2Qrcode } from "vue2-qr";
 ```
 ```html
 <Vue2Qrcode

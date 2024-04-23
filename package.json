@@ -1,5 +1,5 @@
 {
-  "name": "vue2qrcode",
+  "name": "vue2-qr",
   "version": "0.0.1",
   "private": false,
   "main": "dist/vue2qrcode.umd.js",
