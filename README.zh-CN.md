@@ -1,7 +1,7 @@
 ## vue2qrcode
 [English](./README.md) | **中文**
 ## 描述  
-A plugin suitable for vue2.x with a QR code in the center with a logo.  
+适用于vue2.x的生成中心带logo的二维码插件  
 ## 效果图
 <img src="./img/npmjs.com.png" width="300">
 
