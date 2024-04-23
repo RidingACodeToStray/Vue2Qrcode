@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Vue2Qrcode
+      content="https://www.npmjs.com/"
+      width="500"
+      :logoImg="require('./assets/logo.png')"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import { Vue2Qrcode } from "./index";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Vue2Qrcode,
   },
 };
 </script>

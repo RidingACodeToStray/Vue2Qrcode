@@ -1,29 +1,40 @@
-# vue2qrcode
+## vue2qrcode
+**English** | [中文](./README.zh-CN.md)  
+## Introduction  
+A plugin suitable for vue2.x with a QR code in the center with a logo.  
+## Example
+<img src="./img/npmjs.com.png" width="300">
 
-## Project setup
-```
+## Run demo
+```bash
+# yarn
 yarn install
+# npm
+npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+```bash
+# yarn
 yarn serve
+# npm
+npm run serve
 ```
 
-### Compiles and minifies for production
+## How to use  
+```javascript
+import { Vue2Qrcode } from "./index";
 ```
-yarn build
+```html
+<Vue2Qrcode
+  content="https://www.npmjs.com/"
+  width="100"
+  :logoImg="require('./assets/logo.png')"
+/>
 ```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Parameter explanation  
+| Parameter | Explain                                                                   | Type             | Default |
+| --------- | ------------------------------------------------------------------------- | ---------------- | ------- |
+| content   | Content that needs to be converted into QR code                           | String           | ''      |
+| width     | QR code width                                                             | Number \| String | 200     |
+| logoImg   | Logo picture in the center area. If no picture is required, do not set it | String           | ''      |
+| logoZoom  | The scaling ratio of the logo image in the center area                    | Number           | 0.2     |
